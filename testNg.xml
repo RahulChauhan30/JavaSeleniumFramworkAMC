@@ -1,0 +1,13 @@
+
+<suite name="AMCTestSuite">
+	<test name="Landing Page test">
+
+		<listeners>
+			<listener class-name="com.amc.qa.extentReport.ExtentReportListener" />
+		</listeners>
+		<classes>
+			<class name="com.amc.qa.testcases.LandingPageTest"></class>
+		</classes>
+
+	</test>
+</suite>
