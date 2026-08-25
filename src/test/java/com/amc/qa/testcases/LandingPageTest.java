@@ -61,7 +61,7 @@ public class LandingPageTest extends TestBase{
 	public void LandingPageTitleTest()
 	{
 		String title = landingPage.validatePageTitle();
-		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicle");
+		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicles");
 	}
 	
 	@Test(enabled = true)	
