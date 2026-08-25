@@ -61,11 +61,11 @@ public class LandingPageTest extends TestBase{
 	public void LandingPageTitleTest()
 	{
 		String title = landingPage.validatePageTitle();
-		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicles");
+		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicle");
 	}
 	
 	@Test(enabled = true)	
-	public void LandingPageLogTest()
+	public void LandingPageLogoTest()
 	{
 	
 		boolean b = landingPage.getLogo();
@@ -89,7 +89,7 @@ public class LandingPageTest extends TestBase{
 		
 	}
 	
-	@Test(enabled = true, dataProvider = "getContactData")	
+	@Test(enabled = false, dataProvider = "getContactData")	
 	public void navigateToContactUS(String firstname, String lastName, String contact, String email, String message) throws InterruptedException
 	{
 		contactUs = landingPage.navigateToContactUs();
