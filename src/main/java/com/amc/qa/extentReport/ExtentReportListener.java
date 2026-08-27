@@ -78,6 +78,10 @@ import org.testng.ITestResult;
 	        // Flush report
 	        extent.flush();
 	    }
+	    
+	    public static ExtentTest getTest() {
+	        return test.get();
+	    }
 	}
 
 

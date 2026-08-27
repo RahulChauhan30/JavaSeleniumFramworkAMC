@@ -1,7 +1,9 @@
 package com.amc.qa.testcases;
 
 import java.io.IOException;
+import java.util.logging.LogManager;
 
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -9,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.amc.qa.base.TestBase;
+import com.amc.qa.extentReport.ExtentReportListener;
 import com.amc.qa.pages.BookingCongratulationsPage;
 import com.amc.qa.pages.ContactUsPage;
 import com.amc.qa.pages.FinanceAndExchangePage;
@@ -23,6 +26,8 @@ import com.amc.qa.pages.SignInOTPPopUp;
 import com.amc.qa.pages.SignInPopUp;
 import com.amc.qa.pages.VariantSelectionPage;
 import com.amc.qa.util.ReadDataFromExcelSheet;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 public class LandingPageTest extends TestBase{
 	LandingPage landingPage;
@@ -44,6 +49,10 @@ public class LandingPageTest extends TestBase{
 	String excelDataPath = "C:\\Users\\Rahul Chauhan\\eclipse-workspace\\AMCTest\\src\\main\\java\\com\\amc\\qa\\data\\ContactUs.xlsx";
 	String sheetName = "Sheet1";
 	
+	//public static final Logger log = LogManager.getLogger(TestBase.class);
+	//private static final Logger logger = LogManager.getLogger(LandingPageTest.class);
+    private ExtentTest test;
+	
 	public LandingPageTest()
 	{
 		super();
@@ -60,7 +69,9 @@ public class LandingPageTest extends TestBase{
 	@Test(enabled = true)	
 	public void LandingPageTitleTest()
 	{
+		test = ExtentReportListener.getTest(); // get current ExtentTest from your listener 
 		log.info("*** validating mahindra title ********");
+		test.log(Status.INFO, "validating mahindra title");
 		String title = landingPage.validatePageTitle();
 		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicles");
 	}
@@ -68,8 +79,9 @@ public class LandingPageTest extends TestBase{
 	@Test(enabled = true)	
 	public void LandingPageLogoTest()
 	{
+		test = ExtentReportListener.getTest();
 		log.info("*** validating mahindra logo visiblity ********");
-	
+		test.log(Status.INFO, "validating mahindra logo visiblity");
 		boolean b = landingPage.getLogo();
 		Assert.assertEquals(b, true);
 	}
