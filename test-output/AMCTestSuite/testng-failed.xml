@@ -8,6 +8,7 @@
     <classes>
       <class name="com.amc.qa.testcases.LandingPageTest">
         <methods>
+          <include name="LandingPageTitleTest"/>
           <include name="LandingPageLogoTest"/>
           <include name="setup"/>
           <include name="tearDown"/>

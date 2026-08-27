@@ -60,6 +60,7 @@ public class LandingPageTest extends TestBase{
 	@Test(enabled = true)	
 	public void LandingPageTitleTest()
 	{
+		log.info("*** validating mahindra title ********");
 		String title = landingPage.validatePageTitle();
 		Assert.assertEquals(title, "Mahindra Auto - Passenger & Commercial Vehicles");
 	}
@@ -67,6 +68,7 @@ public class LandingPageTest extends TestBase{
 	@Test(enabled = true)	
 	public void LandingPageLogoTest()
 	{
+		log.info("*** validating mahindra logo visiblity ********");
 	
 		boolean b = landingPage.getLogo();
 		Assert.assertEquals(b, true);

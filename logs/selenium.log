@@ -1,0 +1,31 @@
+2026-08-27 09:03:00 DEBUG TestNG - suiteXmlPath: "C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml"
+2026-08-27 09:03:01 WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml] otherwise TestNG may fail or not work as expected.
+2026-08-27 09:04:49 DEBUG TestNG - suiteXmlPath: "C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml"
+2026-08-27 09:04:49 WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml] otherwise TestNG may fail or not work as expected.
+2026-08-27 09:04:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml
+
+2026-08-27 09:04:52 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:04:58 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:06:10 DEBUG TestNG - suiteXmlPath: "C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml"
+2026-08-27 09:06:10 WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml] otherwise TestNG may fail or not work as expected.
+2026-08-27 09:06:11 INFO  Utils - [TestNG] Running:
+  C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml
+
+2026-08-27 09:06:12 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:06:13 INFO  TestBase - *** navigating to URL ********
+2026-08-27 09:06:17 INFO  TestBase - *** validating mahindra logo visiblity ********
+2026-08-27 09:06:18 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:06:18 INFO  TestBase - *** navigating to URL ********
+2026-08-27 09:06:22 INFO  TestBase - *** validating mahindra title ********
+2026-08-27 09:10:11 DEBUG TestNG - suiteXmlPath: "C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml"
+2026-08-27 09:10:11 WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml] otherwise TestNG may fail or not work as expected.
+2026-08-27 09:10:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Rahul Chauhan\eclipse-workspace\AMCTest\testNg.xml
+
+2026-08-27 09:10:14 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:10:18 INFO  TestBase - *** navigating to URL ********https://auto.mahindra.com/
+2026-08-27 09:10:19 INFO  TestBase - *** validating mahindra logo visiblity ********
+2026-08-27 09:10:20 INFO  TestBase - *****Setting up driver***** 
+2026-08-27 09:10:24 INFO  TestBase - *** navigating to URL ********https://auto.mahindra.com/
+2026-08-27 09:10:25 INFO  TestBase - *** validating mahindra title ********

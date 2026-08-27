@@ -1,5 +1,6 @@
 com\amc\qa\util\ScreenShot.class
 com\amc\qa\util\ScrollOnPage.class
+com\amc\qa\util\LogicTest.class
 com\amc\qa\pages\FinanceAndExchangePage.class
 com\amc\qa\pages\ReviewPage.class
 com\amc\qa\pages\SelectDealerPage.class
